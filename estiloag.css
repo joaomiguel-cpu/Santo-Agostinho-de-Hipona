@@ -1,0 +1,72 @@
+body {
+	font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+	margin: 0;
+	padding: 0;
+	background-image: url("fundo.jpg");
+}
+header{
+	background-color: #652d80;
+	text-align: center;
+}
+div.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+div.conteudo {
+	width: 1000px;
+	background: rgba(255, 197, 43, 0.7);
+	margin: 0 auto;
+	border-radius: 15px;
+	border: 1px solid black;
+}
+h1 {
+	color: #ffe842;
+	font-size: 34px;
+	text-align: center;
+}
+p {
+	color: #ffe842;
+	font-size: 19px;
+	text-align: center;
+}
+p.texto{
+	color: #000000;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+footer {
+	background-color: #1c0952;
+	text-align: center;
+}
+
+div.imagem {
+    text-align: center;
+}
+nav.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	background-color:#1c0952;;
+}
+nav.menu li{
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+nav.menu a {
+	display: block;
+	padding: 15px 28px;
+	color: #ffe842;
+	text-decoration: none;
+}
+nav.menu a:hover {
+	background-color:#000000;
+	color:  #b5dfee;
+}
